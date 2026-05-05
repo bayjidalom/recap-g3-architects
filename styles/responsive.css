@@ -8,6 +8,7 @@
     }
 
 
+
     nav {
         max-width: 100%;
         text-align: center;
@@ -19,4 +20,45 @@
         margin-bottom: 16px;
 
     }
+
+
+    /* Banner related styles */
+
+    .banner-container {
+        max-width: 95%;
+
+        padding-top: 53px;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-content h2 {
+        font-size: 32px;
+
+    }
+
+    .primary-btn {
+        padding: 14px 20px;
+    }
+
+    .banner-content {
+        max-width: 862px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+
+    /* .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    } */
+
+
+
+
+
 }
