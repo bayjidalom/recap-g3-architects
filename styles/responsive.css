@@ -7,26 +7,20 @@
         flex-direction: column;
     }
 
-
-
     nav {
         max-width: 100%;
         text-align: center;
-
     }
 
     .brand-name {
-                font-size: 2.5rem;
+        font-size: 2.6rem;
         margin-bottom: 16px;
-
     }
-
 
     /* Banner related styles */
 
     .banner-container {
         max-width: 95%;
-
         padding-top: 53px;
     }
 
@@ -36,7 +30,6 @@
 
     .banner-content h2 {
         font-size: 2.65rem;
-
     }
 
     .primary-btn {
@@ -57,6 +50,31 @@
         flex-wrap: wrap;
     } */
 
+
+    /* Feature related styles */
+
+    .feature-container {
+        max-width: 95%;
+        flex-direction: column-reverse;
+        margin-bottom: 60px;
+        gap: 27px;
+    }
+
+    .feature-content {
+        max-width: 95%;
+    }
+
+    .feature-content h2 {
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .feature-image-container {
+        max-width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
 
 
 
