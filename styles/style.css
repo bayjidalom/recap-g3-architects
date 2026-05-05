@@ -1,6 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
+
+/* Shared styles */
+.display-flex {
+    display: flex;
+}
+
+
+
+/* Navbar related styles */
+
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+
+nav {
+    max-width: 1452px;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.brand-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
