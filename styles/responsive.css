@@ -82,5 +82,43 @@
 
 
 
+    /* Experience */
+
+    .info-container {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .info-content {
+        max-width: 100%;
+    }
+
+    .info-heading h2 {
+        font-size: 33px;
+        padding-left: 11px;
+    }
+
+    .info-image {
+        max-width: 100%;
+    }
+
+    .badge {
+        padding: 18px 34px;
+        margin-left: 14px;
+        margin-top: -63px;
+    }
+
+    .badge-year {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .badge-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
 
 }
